@@ -1,0 +1,31 @@
+
+IP	Port	Protocol	Status	Service	Banner
+192.168.3.231	25	TCP	open	smtp	N/A
+192.168.3.231	110	TCP	open	pop3	N/A
+192.168.3.231	143	TCP	open	imap	N/A
+
+
+
+
+.userinput{
+      width: 30vw;
+    margin-right: 10px;
+    background-color:hsla(0, 0%, 74.5%, .2);
+    /* max-width: 249px; */
+    height: 4vh;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid #bfbfbf59;;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: larger;
+}
+
+.userinput:focus {
+  color: black;
+    outline-color: #c4221f;
+    box-shadow: -3px -3px 15px #dd0c17;
+    transition: .1s;
+    transition-property: box-shadow;
+}

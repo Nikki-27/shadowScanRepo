@@ -1,0 +1,32 @@
+.shadowscan-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.shadowscan-title {
+  font-family: "Courier New", monospace;
+  font-size: 48px;
+  font-weight: bold;
+  color: #00ff00; /* neon green */
+  text-transform: uppercase;
+  text-shadow:
+    0 0 5px #00ff007a, 0 0 10px #00ff0059, 0 0 20px #00ff006b, 0 0 40px #00ff008a, 0 0 80px #00ff0085, 0 0 90px #00ff0085, 0 0 100px #00ff00;
+  animation: flicker 2s infinite;
+}
+
+.shadowscan-tagline {
+  font-family: "Courier New", monospace;
+  color: #ffff00; /* neon yellow */
+  font-size: 16px;
+  text-shadow: 0 0 5px #ffff00, 0 0 10px #ffff00;
+  margin-top: 10px;
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0.4;
+  }
+}
